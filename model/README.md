@@ -1,3 +1,7 @@
+# Planner-generator network with table reconstruction
+
+We implemented our model based on the work [Ratish et.al AAAI19](https://arxiv.org/abs/1809.00582). The original instructions for how to train and test the model are below:
+
 # data2text-plan-py
 
 This repo contains code for [Data-to-Text Generation with Content Selection and Planning](https://arxiv.org/abs/1809.00582) (Puduppully, R., Dong, L., & Lapata, M.; AAAI 2019); this code is based on an earlier fork of [OpenNMT-py](https://github.com/OpenNMT/OpenNMT-py). The Pytorch version is 0.3.1.
