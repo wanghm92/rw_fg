@@ -1,6 +1,12 @@
 # Planner-generator network with table reconstruction
 
-We implemented our model based on the work [Ratish et.al AAAI19](https://arxiv.org/abs/1809.00582). The original instructions for how to train and test the model are below:
+We implemented our model based on the work [Ratish et.al AAAI19](https://arxiv.org/abs/1809.00582).
+
+The original instructions for how to train and test the model are below. These are rather complicated steps to follow.
+
+:crossed_fingers:After getting familiar with the following procedures, use/modify `run.sh` based on your needs.
+
+The major difference is add the table reconstruction loss [here](https://github.com/wanghm92/rw_fg/blob/aed53780855dfc165cc46e191e77f6d83479a5a3/model/onmt/modules/CopyGenerator.py#L264).
 
 # data2text-plan-py
 
