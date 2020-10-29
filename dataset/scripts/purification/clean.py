@@ -285,8 +285,7 @@ full_name_cnt = 0
 
 def fix_tokenization(s):
     global full_name_cnt
-    mwe_file = "/home/hongmin_wang/table2text_nlg/harvardnlp/data2text-harvard/mwes.json"
-    with io.open(mwe_file, 'r', encoding='utf-8') as fmwe:
+    with io.open("mwes.json", 'r', encoding='utf-8') as fmwe:
         tmp = json.load(fmwe)
         mwes = {k:v for k,v in tmp.items() if v>1}
     full_names = {' '.join(k.split('_')):k for k, _ in mwes.items()}
